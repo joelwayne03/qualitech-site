@@ -1,4 +1,6 @@
 export default function ValidationConsultingSampleSite() {
+  const contactFormAction = "https://formspree.io/f/mykbgqjn";
+const careersFormAction = "https://formspree.io/f/xojpaowr";
   const services = [
     {
       title: "Validation Strategy & Program Leadership",
