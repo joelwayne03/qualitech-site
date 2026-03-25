@@ -1,6 +1,6 @@
 export default function ValidationConsultingSampleSite() {
   const contactFormAction = "https://formspree.io/f/mykbgqjn";
-const careersFormAction = "https://formspree.io/f/xojpaowr";
+  const careersFormAction = "https://formspree.io/f/xojpaowr";
   const services = [
     {
       title: "Validation Strategy & Program Leadership",
@@ -298,7 +298,7 @@ const careersFormAction = "https://formspree.io/f/xojpaowr";
           </div>
 
           <div className="rounded-[2rem] border border-white/10 bg-slate-900/70 p-7">
-            <div className="text-sm uppercase tracking-[0.25em] text-cyan-200">Why Clients Work With Me</div>
+            <div className="text-sm uppercase tracking-[0.25em] text-cyan-200">Why Clients Work With Us</div>
             <div className="mt-6 space-y-4">
               {differentiators.map((item) => (
                 <div key={item} className="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm leading-7 text-slate-200">
@@ -397,31 +397,42 @@ const careersFormAction = "https://formspree.io/f/xojpaowr";
           </div>
 
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-7 shadow-lg shadow-black/20">
-            <div className="space-y-4">
+            <form action={careersFormAction} method="POST" className="space-y-4 relative z-10">
+              <input type="hidden" name="form_type" value="Careers Interest" />
+              <input type="hidden" name="_subject" value="New Careers Interest Submission - QualiTech Validation Experts" />
               <input
+                name="full_name"
+                required
                 className="w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
                 placeholder="Full name"
               />
               <input
+                type="email"
+                name="email"
+                required
                 className="w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
                 placeholder="Email"
               />
               <input
+                name="expertise"
                 className="w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
                 placeholder="Primary area of expertise"
               />
               <input
+                name="profile_link"
                 className="w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
                 placeholder="LinkedIn or resume link"
               />
               <textarea
+                name="background"
+                required
                 className="min-h-[130px] w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
                 placeholder="Tell us about your background, availability, industries, and the type of projects you are looking for"
               />
-              <button className="w-full rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.01]">
+              <button type="submit" className="w-full rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.01]">
                 Submit Interest
               </button>
-            </div>
+            </form>
           </div>
         </div>
       </section>
@@ -442,27 +453,37 @@ const careersFormAction = "https://formspree.io/f/xojpaowr";
           </div>
 
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-7 shadow-lg shadow-black/20">
-            <div className="space-y-4">
+            <form action={contactFormAction} method="POST" className="space-y-4 relative z-10">
+              <input type="hidden" name="form_type" value="Consultation Request" />
+              <input type="hidden" name="_subject" value="New Consultation Request - QualiTech Validation Experts" />
               <input
+                name="name"
+                required
                 className="w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
                 placeholder="Name"
               />
               <input
+                name="company"
                 className="w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
                 placeholder="Company"
               />
               <input
+                type="email"
+                name="email"
+                required
                 className="w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
                 placeholder="Work email"
               />
               <textarea
+                name="project_details"
+                required
                 className="min-h-[130px] w-full rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-3 text-sm outline-none placeholder:text-slate-500"
-                placeholder="Tell me about your project, gap assessment need, audit preparation, or validation support request"
+                placeholder="Tell us about your project, gap assessment need, audit preparation, or validation support request"
               />
-              <button className="w-full rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.01]">
+              <button type="submit" className="w-full rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.01]">
                 Request Consultation
               </button>
-            </div>
+            </form>
           </div>
         </div>
       </section>
