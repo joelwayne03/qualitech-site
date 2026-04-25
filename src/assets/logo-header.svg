@@ -1,0 +1,14 @@
+<svg width="320" height="60" viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="none">
+    <!-- Q circle -->
+    <circle cx="30" cy="30" r="22" stroke="#E5E7EB" stroke-width="4"></circle>
+
+    <!-- Checkmark -->
+    <path d="M20 30 L28 38 L42 22" stroke="#0EA5E9" stroke-width="4" fill="none"></path>
+
+    <!-- Text -->
+    <text x="70" y="38" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600">
+      <tspan fill="#E5E7EB">QUALI</tspan><tspan fill="#0EA5E9">TECH</tspan>
+    </text>
+  </g>
+</svg>
