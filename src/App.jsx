@@ -134,9 +134,9 @@ export default function ValidationConsultingSampleSite() {
             </a>
           </nav>
 
-  <a
+ <a
   href="#contact"
-  className="inline-flex items-center whitespace-nowrap rounded-md border border-white/10 bg-white px-3 py-1.5 text-[11px] font-medium text-slate-900 transition hover:bg-white/90"
+  className="inline-flex items-center whitespace-nowrap rounded-md bg-white px-3 py-1 text-[12px] font-medium text-slate-900 hover:bg-gray-100 transition"
 >
   Request Consultation
 </a>
@@ -234,7 +234,7 @@ export default function ValidationConsultingSampleSite() {
       </section>
 
       <section className="border-y border-white/10 bg-white/[0.02]">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
+       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2.5 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">
               The Problem
