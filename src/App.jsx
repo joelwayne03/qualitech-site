@@ -8,7 +8,7 @@ export default function ValidationConsultingSampleSite() {
     {
       title: "Validation & Computer System Validation (CSV)",
       description:
-        "End-to-end support across the validation lifecycle from planning and risk assessment through execution and ongoing maintenance—aligned with GAMP 5 and regulatory expectations.",
+        "End-to-end support across the validation lifecycle from planning and risk assessment through execution and ongoing maintenance aligned with GAMP 5 and regulatory expectations.",
       bullets: [
         "Validation planning and strategy",
         "Risk assessments and traceability",
@@ -116,7 +116,7 @@ export default function ValidationConsultingSampleSite() {
             </div>
           </div>
 
-          <nav className="hidden gap-8 text-[13px] text-slate-300 md:flex">
+          <nav className="hidden gap-8 text-[15px] text-slate-300 md:flex">
             <a href="#services" className="transition hover:text-white">
               Services
             </a>
@@ -134,12 +134,7 @@ export default function ValidationConsultingSampleSite() {
             </a>
           </nav>
 
- <a
-  href="#contact"
-  className="inline-flex items-center whitespace-nowrap rounded-md bg-white px-3 py-0.5 text-[12px] font-medium text-slate-900 hover:bg-gray-100 transition"
->
-  Request Consultation
-</a>
+ 
         </div>
       </header>
 
