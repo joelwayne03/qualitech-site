@@ -134,9 +134,9 @@ export default function ValidationConsultingSampleSite() {
             </a>
           </nav>
 
-   <a
+  <a
   href="#contact"
-  className="inline-flex items-center whitespace-nowrap rounded-lg border border-white/10 bg-white px-4 py-2 text-xs font-medium text-slate-900 transition hover:bg-white/90"
+  className="inline-flex items-center whitespace-nowrap rounded-md border border-white/10 bg-white px-3 py-1.5 text-[11px] font-medium text-slate-900 transition hover:bg-white/90"
 >
   Request Consultation
 </a>
