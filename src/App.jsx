@@ -116,7 +116,7 @@ export default function ValidationConsultingSampleSite() {
             </div>
           </div>
 
-          <nav className="hidden gap-8 text-sm text-slate-300 md:flex">
+          <nav className="hidden gap-8 text-[13px] text-slate-300 md:flex">
             <a href="#services" className="transition hover:text-white">
               Services
             </a>
