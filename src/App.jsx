@@ -135,11 +135,11 @@ export default function ValidationConsultingSampleSite() {
           </nav>
 
           <a
-            href="#contact"
-            className="rounded-xl border border-white/15 bg-white px-4 py-2 text-xs font-semibold text-slate-950 transition hover:scale-[1.02]"
-          >
-            Request Consultation
-          </a>
+  href="#contact"
+  className="inline-flex items-center rounded-lg border border-white/10 bg-white px-3 py-1.5 text-xs font-medium text-slate-900 transition hover:bg-white/90"
+>
+  Request Consultation
+</a>
         </div>
       </header>
 
