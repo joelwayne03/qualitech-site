@@ -138,7 +138,7 @@ export default function ValidationConsultingSampleSite() {
   href="#contact"
   className="inline-flex items-center whitespace-nowrap rounded-md bg-white px-3 py-1 text-[12px] font-medium text-slate-900 hover:bg-gray-100 transition"
 >
-  Request Consultation
+  Book a Consultation
 </a>
         </div>
       </header>
