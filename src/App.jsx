@@ -593,11 +593,22 @@ export default function ValidationConsultingSampleSite() {
               Use this section to connect for project-based consulting, remediation support,
               program assessments, audit readiness, or validation leadership.
             </p>
-            <div className="mt-8 space-y-3 text-slate-300">
-              <div>Email: info@qualitechvalidationexperts.com</div>
-              <div>LinkedIn: linkedin.com/in/joelvaz</div>
-              <div>Location: Greater Boston / New England / Remote Support</div>
-            </div>
+            <div className="mt-8 text-sm text-slate-300 leading-relaxed">
+  <p className="font-medium text-white">QualiTech Validation Experts LLC</p>
+  <p>145 Tremont Street, Suite 201-1636</p>
+  <p>Boston, MA 02111</p>
+
+  <br />
+
+  <p>info@qualitechvalidationexperts.com</p>
+  <p>(508) 639-0378</p>
+
+  <br />
+
+  <p className="text-slate-400">
+    Serving GMP-regulated biotech and pharmaceutical organizations nationwide.
+  </p>
+</div>
           </div>
 
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-7 shadow-lg shadow-black/20">
